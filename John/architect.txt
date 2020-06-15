@@ -1,0 +1,73 @@
+We are building an ecommerce site
+using a request to the NODe JS server and work with a file based store
+We are now going to make dynamic html files 
+Store Users
+Store Cart items
+create a custom based data-store with JS to get a better understanding of JS
+
+Project SETUP
+//Create a New Project Directory
+//Generate a Package.json file
+//install a few dependencies to help us write our Project
+//create a 'start script to run our project
+
+Request responses 
+Browser sends HTTP header to the server
+Server sees requerst with path and method
+server runs appropriate callback method
+Then the browser starts transmitting information from body of request
+Browseer sends a little chunk of information, waits for confirmation
+Browser sends a little chunk of info, waits for confirmation
+Browser sends a little chunk of info, waits for confirmation
+All Chunks sent, request complete.
+
+For the DATA Store
+2 separate objects for managing 2 resources which we will call respositories
+List of Users // User Repository
+List of Products // Products Repository
+This will be resuable code
+
+We will create a class that will implement this behaviour.  We will have one class to manage all our users.  this is a repository approach, responsible for all data access. All records are stored and used as plain JS objects.  
+
+Users Methods   Input Arguments        Return Value            Description
+getAll()     |   -                  |        [user]         |   Gets a list of all users
+getOne()     |        id            |          user         |  Finds the uder with given id
+getOneBy()   |    filters           |          user         |  Finds one user witht he given filters
+create()     |    attributes        |      null             | Creates a user with the given attributes
+update()     |    id, attributes    |     null |Updates the user with the given id using the given attributes
+delete()     |     id               |        null           |  delet the user with the given id
+randomId()   |     -                |          id           |  generates a random id
+writeAll()   |     [user]           |           null        | writesall users to a users.json file
+   |
+
+Active Record Approach = Every record is an instance of a model class that has methods to save, update, delete this record.  Use case is Ruby on Rails
+
+For password security we use a hashing algorithm 
+
+User Sign up security we are going to add a salt into the password as well 
+
+Refactor 
+
+Routes
+admin/auth.jsona
+admin/products.js
+products.js
+cart.js
+
+
+respositories
+users.js
+products.js
+
+
+views
+
+various files
+admin 
+admin/auth
+admin/auth/singin.js
+admin/auth/sgnup.js
+admin/products 
+
+cart 
+products 

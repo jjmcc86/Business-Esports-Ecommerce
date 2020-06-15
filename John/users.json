@@ -1,0 +1,37 @@
+[
+  {
+    "email": "test5",
+    "password": "d90825416e2e3a9c497e0ff9ad39558d68622895ea637b69ebb3475bbadd1433083902eef4eead057ae7792300f032e3a1fab6c3505908f4a52d4f91dce29e1e.21ba1a9baae228d2",
+    "id": "88ed3247"
+  },
+  {
+    "email": "test7",
+    "password": "d806b2e8a4f50227aa3426f9191c89af0cda9327260e3caa11ea0c65327bfd55fd8ada233617cf48df1a9fe0a68a33181a12e4c69eada4577bebc69d71cda887.45929858a1617c9e",
+    "id": "d405a2f8"
+  },
+  {
+    "email": "@test7",
+    "password": "5494f21d9356bb0434220230c2dba78b6c6fb03fb706d6fc8e82b2de5ccd3907385f2da7e4ee34de9f7c754b35e1950a0972915294e83907f173cd360bd46b54.357db7702ef34513",
+    "id": "5c1e18a4"
+  },
+  {
+    "email": "@test8",
+    "password": "d6fc68d5c08ef03cdde302d47990e01d495e5a98b70440dffd9141916e2d7af5274d825dadb62905fc23bd0fe2cf29ec51f6fef3c789e25c0d4ca9641a01848d.5af47e00865ae01f",
+    "id": "d011491d"
+  },
+  {
+    "email": "frank@frank.com",
+    "password": "6814b210a17cf1ad0465177d61ad5ca50a0ca27b05ae0553f895645ec4d3d6c74b17d64eedf62429f5e0d7b92a9d808db1c3cfeb2d2cc02d32096481a859e860.54469333cb82a6ab",
+    "id": "c991cf36"
+  },
+  {
+    "email": "john@frank.com",
+    "password": "bef0c685d5c710cc287e752d40c34b3c2e56bbd7d01e117779ef17344cad63e8b2acde84b9486031fd54cc7ab07957dd9e0f54ea3a322c29330ca10069f662ac.be84d9bc784faa6a",
+    "id": "71df2a2b"
+  },
+  {
+    "email": "sarah@frank.com",
+    "password": "432b461d7392e61037f89ec3d24025c7c4d87da67838a23362535b4869d727b607bd80fa20f71423fbc7c6ea65a226c1d56f93cc3cb566b94666d3abfa9ab1f6.536dfdef5236999d",
+    "id": "153a302b"
+  }
+]
